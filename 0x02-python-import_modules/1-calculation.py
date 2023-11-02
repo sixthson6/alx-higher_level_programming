@@ -2,6 +2,7 @@
 
 from calculator_1 import add, sub, mul, div
 
+
 def main():
     a = 10
     b = 5
@@ -15,6 +16,7 @@ def main():
     print("{} - {} = {}".format(a, b, _sub))
     print("{} * {} = {}".format(a, b, _mul))
     print("{} / {} = {}".format(a, b, _div))
+
 
 if __name__ == '__main__':
     main()
