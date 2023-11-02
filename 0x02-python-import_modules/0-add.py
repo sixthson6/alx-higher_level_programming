@@ -2,6 +2,9 @@
 
 from add_0 import add
 
-result = add(1, 2)
+def main():
+    result = add(1, 2)
+    print("1 + 2 = {}".format(result))
 
-print("1 + 2 = {}".format(result))
+if __name__ == '__main__':
+    main()
