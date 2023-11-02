@@ -23,7 +23,7 @@ def main():
     elif op == '*':
         result = mul(a, b)
     elif op == '/':
-        result = div(a,b)
+        result = div(a, b)
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
