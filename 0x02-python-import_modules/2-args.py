@@ -11,9 +11,9 @@ def main():
         print("1 argument")
         print("1: {}".format(arguments[1]))
     else:
-        print("{}: arguments:".format(len(arguments)))
-        for arg_index in range(1, len(arguments)):
-            print("{}: {}".format(arg_index, arguments[arg_index]))
+        print("{} arguments:".format(len(arguments)))
+    for arg_index in range(1, len(arguments)):
+        print("{}: {}".format(arg_index, arguments[arg_index]))
 
 
 if __name__ == '__main__':
