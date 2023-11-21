@@ -4,7 +4,8 @@ def list_division(my_list_1, my_list_2, list_length):
     for i in range(list_length):
         try:
             result = my_list_1[i] / my_list_2[i]
-            if result != result or result == float('inf') or result == float('-inf'):
+            if result != result or result == float('inf') or
+            result == float('-inf'):
                 resul = 0
         except IndexError:
             print("out of range")
@@ -18,4 +19,3 @@ def list_division(my_list_1, my_list_2, list_length):
         finally:
             my_list_3.append(result)
     return my_list_3
-
