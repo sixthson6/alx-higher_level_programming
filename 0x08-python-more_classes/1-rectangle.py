@@ -16,7 +16,7 @@ class Rectangle():
         None
     """
     def __init__(self, width=0, height=0):
-        """ 
+        """
         instance attributes:
             width
             height
