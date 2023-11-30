@@ -6,9 +6,21 @@ This module contains an empty class definition of a Rectangle
 
 class Rectangle():
     """
-    An empty class
+    This is a class instance of a rectangle
+
+    class attributes:
+        height
+        width
+
+    Methods:
+        None
     """
     def __init__(self, width=0, height=0):
+        """ 
+        instance attributes:
+            width
+            height
+        """
         self._width = width
         self._height = height
 
