@@ -13,5 +13,5 @@ def write_file(filename="", text=""):
     Return: number of bytes written
     """
     with open(filename, 'w', encoding='utf-8') as fd:
-        bytes_written =fd.write(text)
+        bytes_written = fd.write(text)
     return bytes_written
