@@ -2,7 +2,7 @@
 """ this module contains a class """
 
 
-class MyInt(Int):
+class MyInt(int):
     """ inverts equal sign operator """
     def __eq__(self, value):
         return self.real != value
