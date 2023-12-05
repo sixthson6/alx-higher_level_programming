@@ -7,7 +7,7 @@ text to a file
 
 def append_write(filename="", text=""):
     """
-    this file contains a file that appends text to 
+    this file contains a file that appends text to
     an already existing file
 
     Parameters:
