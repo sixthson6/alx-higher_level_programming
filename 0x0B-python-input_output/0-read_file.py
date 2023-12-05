@@ -4,4 +4,5 @@
 
 def read_file(filename=""):
     with open(filename, 'r') as fd:
-        pass
+        for line in fd:
+            print(line, end='')
