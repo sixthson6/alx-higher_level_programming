@@ -17,4 +17,4 @@ def class_to_json(obj):
         dictionary description
     """
     items = vars(obj)
-    return items 
+    return items
