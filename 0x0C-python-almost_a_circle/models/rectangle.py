@@ -147,7 +147,7 @@ class Rectangle(Base):
         x
         y
         """
-        if len(args) != None:
+        if len(args) is not None:
             if len(args) == 1:
                 self.id = args[0]
             if len(args) > 1:
