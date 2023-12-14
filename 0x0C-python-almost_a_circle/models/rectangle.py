@@ -119,3 +119,12 @@ class Rectangle(Base):
             retangle
         """
         return self.__width * self.__height
+
+    def display(self):
+        """
+        print the rectangle instance
+        using '#'
+        """
+        for i in range(self.__height):
+            print('#' * self.__width)
+
