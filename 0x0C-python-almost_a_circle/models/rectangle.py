@@ -27,12 +27,17 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """get width"""
+        """get width using getter method"""
         return self.__width
 
     @width.setter
     def width(self, value):
-        """set width"""
+        """set width using setter method
+
+        Exceptions
+            TypeError
+            ValueError
+        """
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -41,12 +46,21 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        """get height"""
+        """
+        get height
+        using getter method
+        """
         return self.__height
 
     @height.setter
     def height(self, value):
-        """set height"""
+        """
+        set height using setter method
+
+        Exceptions
+            TypeError
+            ValueErrr
+        """
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value <= 0:
@@ -55,12 +69,18 @@ class Rectangle(Base):
 
     @property
     def x(self):
-        """get x"""
+        """get x using getter method"""
         return self.__x
 
     @x.setter
     def x(self, value):
-        """set x"""
+        """
+        set x using setter method
+
+        Exceptions:
+            ValueError
+            TypeError
+        """
         if type(value) is not int:
             raise TypeError("x must be an integer")
         if value < 0:
@@ -69,12 +89,21 @@ class Rectangle(Base):
 
     @property
     def y(self):
-        """get y"""
+        """
+        get y
+        using getter method
+        """
         return self.__y
 
     @y.setter
     def y(self, value):
-        """set y"""
+        """
+        set y using setter method
+
+        Exceptions:
+            ValueError
+            TypeError
+        """
         if type(value) is not int:
             raise TypeError("y must be an integer")
         if value < 0:
