@@ -8,7 +8,15 @@ class Rectangle(Base):
     this class define a Rectangle
 
     Attrs:
-        width, height, x, y
+        width
+        height
+        x
+        y
+
+    Exceptions:
+        TypeError if type is not int
+        ValueError if height and width are not >= 0
+        ValueError if x and y are not > 0
     """
     def __init__(self, width, height, x=0, y=0, id=None):
         self.__width = width
