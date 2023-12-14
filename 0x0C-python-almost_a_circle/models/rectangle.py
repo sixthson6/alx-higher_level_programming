@@ -160,3 +160,7 @@ class Rectangle(Base):
                 self.__y = args[4]
         for k, v in kwargs.items():
             setattr(self, k, v)
+
+    def to_dictionary(self):
+        """return dictionary"""
+        return vars(self)
