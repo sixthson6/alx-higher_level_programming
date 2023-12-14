@@ -44,3 +44,12 @@ class Square(Rectangle):
         string = "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
                                                    self.size)
         return string
+
+    def to_dictionary(self):
+        """print dict"""
+        return {
+                "id": self.id,
+                "size": self.width,
+                "x": self.x,
+                "y": self.y
+                }
