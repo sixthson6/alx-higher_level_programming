@@ -3,7 +3,7 @@
 
 
 def add_integer(a, b=98):
-    """ 
+    """
     function adds two numbers
 
     Return:
