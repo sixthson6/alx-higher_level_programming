@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ contains a function that adds two numbers """
 
+
 def add_integer(a, b=98):
     """ function adds two numbers """
     if type(a) not in [int, float]:
