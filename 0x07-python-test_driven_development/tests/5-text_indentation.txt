@@ -1,0 +1,54 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>>
+>>> text_indentation("    Holberton    ")
+Holberton
+>>>
+>>> text_indentation("    Hello    .")
+Hello.
+>>> text_indentation(".?:")
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+:
+<BLANKLINE>
+>>>
+>>> text_indentation(None)
+Traceback (most recent call last):
+	...
+TypeError: text must be a string
+>>>
+>>> text_indentation(10)
+Traceback (most recent call last):
+	...
+TypeError: text must be a string
+>>>
+>>> text_indentation("Betty: Holberton? Python is. cool   ")
+Betty:
+<BLANKLINE>
+Holberton?
+<BLANKLINE>
+Python is.
+<BLANKLINE>
+cool
+>>> text_indentation('2')
+2
+>>> text_indentation('    ')
+
+>>> text_indentation('\n')
+<BLANKLINE>
+>>> text_indentation('\n.\n?\n:')
+<BLANKLINE>
+.
+<BLANKLINE>
+<BLANKLINE>
+?
+<BLANKLINE>
+<BLANKLINE>
+:
+<BLANKLINE>
+>>>
+>>> text_indentation("   \n")
+<BLANKLINE>
+>>> text_indentation("\n   ")
+<BLANKLINE>
