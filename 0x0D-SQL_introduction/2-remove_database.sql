@@ -1,2 +1,2 @@
--- delete databe
-DROP DATABASE IF NOT EXISTS hbtn_0c_0
+-- delete database
+DROP DATABASE IF NOT EXISTS hbtn_0c_0;
