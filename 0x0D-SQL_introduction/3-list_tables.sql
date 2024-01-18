@@ -1,2 +1,3 @@
 -- list all tables in mysql servr
-SHOW TABLES IN mysql;
+USE '$1';
+SHOW TABLES
