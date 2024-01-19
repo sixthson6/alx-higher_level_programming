@@ -1,2 +1,2 @@
 -- print full description of table
-SHOW COLUMNS first_table
+SELECT 	first_table FROM INFORMATION_SCHEMA.TABLES
