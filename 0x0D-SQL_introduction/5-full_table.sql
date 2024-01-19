@@ -1,3 +1,2 @@
 -- print full description of table
-SELECT 	TABLE_NAME, TABLE_COMMENT FROM INFORMATION_SCHEMA.TABLES
-	WHERE TABLE_NAME = 'first_table';
+SHOW CREATE TABLE 'first_table';
