@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const msg = 'C is fun';
-num = process.argv[2];
+const num = process.argv[2];
 
 if (!isNaN(num)) {
   for (let i = 1; i <= num; i++) {
