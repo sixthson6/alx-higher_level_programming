@@ -6,4 +6,5 @@
 def copy_list(l):
     """ copy list
     """
-    return l
+    n = l
+    return n
