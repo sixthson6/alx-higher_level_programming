@@ -4,7 +4,6 @@ function calcFactorial (num) {
   if (isNaN(num)) {
     return 1;
   }
-  let res;
   if (num === 0) {
     return 1;
   } else {
@@ -15,4 +14,4 @@ function calcFactorial (num) {
 const num = parseInt(process.argv[2]);
 const res = calcFactorial(num);
 
-console.log(res)
+console.log(res);
