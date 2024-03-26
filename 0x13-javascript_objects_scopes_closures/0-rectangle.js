@@ -1,3 +1,3 @@
 #!/usr/vin/node
-/*Rectangle class*/
-class Rectangle {}
+/*create empty Rectangle class*/
+module.exports = class Rectangle {}
